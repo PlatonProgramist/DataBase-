@@ -1,0 +1,26 @@
+.sort-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .sort-icon {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid black;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+    margin-left: 5px;
+  }
+  
+  .sort-icon.asc {
+    transform: rotate(-135deg); /* Стрелка вверх */
+  }
+  
+  .sort-icon.desc {
+    transform: rotate(45deg); /* Стрелка вниз */
+  }
+  

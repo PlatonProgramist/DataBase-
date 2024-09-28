@@ -1,0 +1,27 @@
+{
+    "development": {
+      "username": "root",
+      "password": null,
+      "database": "mydatabase",
+      "host": "127.0.0.1",
+      "dialect": "sqlite",
+       "storage": "C:/Users/PLATON/my-database-app/backend/database.sqlite"
+    },
+    "test": {
+      "username": "root",
+      "password": null,
+      "database": "mydatabase_test",
+      "host": "127.0.0.1",
+      "dialect": "sqlite",
+      "storage": "database.test.sqlite"
+    },
+    "production": {
+      "username": "root",
+      "password": null,
+      "database": "mydatabase_production",
+      "host": "127.0.0.1",
+      "dialect": "sqlite",
+      "storage": "database.production.sqlite"
+    }
+  }
+  

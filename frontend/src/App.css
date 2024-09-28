@@ -1,0 +1,151 @@
+/* Основные стили для всего сайта */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: 'Helvetica', 'Arial', sans-serif; /* Helvetica как основной шрифт */
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none; /* Убираем подчеркивание у ссылок */
+  color: inherit; /* Цвет ссылок как у текста */
+}
+
+/* Центрирование всех страниц */
+.page-container {
+  display: flex;
+  justify-content: center; /* Горизонтальное центрирование */
+  align-items: center; /* Вертикальное центрирование */
+  min-height: 100vh; /* Высота страницы занимает весь экран */
+  padding: 20px;
+}
+
+.form-container {
+  background-color: #1e1e1e;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 100%;
+  max-width: 600px; /* Максимальная ширина формы */
+  text-align: center; /* Центрирование текста */
+}
+
+/* Стили для Navbar */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #1e1e1e;
+  padding: 20px;
+}
+
+.navbar-list {
+  list-style-type: none; /* Убираем маркеры списка */
+  display: flex;
+  gap: 15px; /* Расстояние между элементами */
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-list li {
+  display: inline;
+}
+
+.navbar-list a {
+  background-color: #6200ea;
+  color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 25px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 16px;
+}
+
+.navbar-list a:hover {
+  background-color: #3700b3;
+  transform: translateY(-2px); /* Плавное поднятие кнопки при наведении */
+}
+
+.navbar-list a:active {
+  background-color: #3700b3;
+  transform: translateY(1px); /* Плавное нажатие кнопки */
+}
+
+.navbar-list a.active {
+  background-color: #3700b3; /* Цвет для активного элемента */
+}
+
+/* Дополнительные элементы интерфейса */
+button {
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #3700b3;
+}
+
+button:active {
+  background-color: #03dac5;
+}
+
+/* Добавление тени для всех кнопок */
+button {
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Таблицы */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+table, th, td {
+  border: 1px solid #444; /* Серые границы таблиц */
+  padding: 10px;
+}
+
+th {
+  background-color: #2c2c2c; /* Фон заголовков таблиц */
+  color: #ffffff;
+}
+
+td {
+  background-color: #1e1e1e; /* Фон ячеек таблиц */
+  color: #ffffff;
+}
+
+/* Стили для выпадающих списков */
+select {
+  background-color: #333; /* Темный фон */
+  color: #e0e0e0; /* Белый текст */
+  border: 1px solid #444; /* Серые границы */
+  padding: 10px;
+  border-radius: 5px;
+  appearance: none; /* Убираем стандартный вид браузера */
+}
+
+select option {
+  background-color: #333; /* Темный фон опций */
+  color: #ffffff; /* Белый текст опций */
+}
+
+/* Стандартные поля ввода */
+input, textarea {
+  background-color: #333; /* Темный фон */
+  color: #e0e0e0; /* Белый текст */
+  border: 1px solid #444; /* Серые границы */
+  padding: 10px;
+  border-radius: 5px;
+}
+
+input:focus, textarea:focus, select:focus {
+  outline: none;
+  border-color: #6200ea; /* Фиолетовый цвет при фокусе */
+}

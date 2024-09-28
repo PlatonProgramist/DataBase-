@@ -1,0 +1,56 @@
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120vh; /* Задаем высоту 100% экрана */
+    background-color: #000000; /* Легкий фон для выделения формы */
+  }
+  
+  .form-box {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Легкая тень */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px; /* Ограничение ширины формы */
+  }
+  
+  .form-box h2 {
+    text-align: center; /* Центрируем заголовок */
+  }
+  
+  .form-box div {
+    margin-bottom: 5px;
+  }
+  
+  .form-box label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .form-box input,
+  .form-box select,
+  .form-box textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 4px;
+  }
+  
+  .form-box button {
+    padding: 10px 15px;
+    background-color: #3700b3;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .form-box button:hover {
+    background-color: #3700b3;
+  }
+  

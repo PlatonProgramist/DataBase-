@@ -1,0 +1,57 @@
+.rating-page {
+  padding: 20px;
+}
+
+.selector-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.dropdown {
+  padding: 10px;
+  width: 200px;
+}
+
+.rankings-container {
+  display: flex;
+  justify-content: center;
+}
+
+.rankings {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.table-container {
+  margin: 0 20px;
+  flex: 1;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #000000;
+  padding: 8px;
+  text-align: left;
+  white-space: nowrap; /* Запрещает перенос текста */
+}
+
+th {
+  background-color: #000000;
+}
+
+td {
+  max-width: 150px; /* Ограничиваем максимальную ширину текста */
+  overflow: hidden;
+  text-overflow: ellipsis; /* Устанавливаем обрезку длинного текста */
+}
+
+table, th, td {
+  text-align: center;
+  font-size: 14px;
+}
